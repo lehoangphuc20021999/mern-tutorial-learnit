@@ -94,7 +94,6 @@ const Dashboard = props => {
                 onClose={setShowToast.bind(this, {show: false, message: '', type: null})}
                 delay={3000}
                 autohide
-                animation={false}
                 >
 
                 <Toast.Body>

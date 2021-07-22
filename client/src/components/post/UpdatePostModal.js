@@ -46,7 +46,7 @@ const UpdatePostModal = props => {
     }
 
     return (
-        <Modal show={showUpdatePostModal} animation={false} onHide={closeDialog}>
+        <Modal show={showUpdatePostModal} onHide={closeDialog}>
             <Modal.Header closeButton>
                 <Modal.Title>
                     Making progress?
